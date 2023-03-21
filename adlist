@@ -1,0 +1,17 @@
+!---I grabed list from mulitple sources and placed here, re-fteched once a while and compile here
+! https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+! https://raw.githubusercontent.com/imranbarolia/hello-world/master/Easylist.txt
+! https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/youtubelist.txt
+! https://raw.githubusercontent.com/ewpratten/youtube_ad_blocklist/master/blocklist.txt
+! https://raw.githubusercontent.com/blocklistproject/Lists/master/youtube.txt
+! https://blocklistproject.github.io/Lists/everything.txt
+
+!Last updated on March 20, 2023
+
+!-----Manual Blacklist
+! iad*.googlevideo.com  
+! ^r[0-9]{1,99}-*sn-*[a-z0-9]{1,99}-[a-z0-9]{1,99}\.googlevideo\.com$
+
+!-----Manual Whitelist
+! www.googleadservices.com
+! s.youtube.com
